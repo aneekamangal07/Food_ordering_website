@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+}
+.leftNav{
+    background-color: rgb(123, 66, 176);
+    width: 50%;
+}
+.logo{
+    display: flex;
+    padding: 20px;
+}
+.logo h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 20px;
+    /* font-weight: 900; */
+}
+.rightNav{
+    background-color: rgb(196 157 232);
+    width: 50%;
+}
+.nav-list{
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    /* align-items: center; */
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+}
+.nav-list li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Sora', sans-serif;
+}
+
+.firstsection{
+    height: 100vh;
+    background: #dbc9ec;
+    
+}
+.box-main{
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20%;
+}
+.box-main h1{
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+.box-main h2{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 12px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 12px 30px;
+    background: transparent;
+    /* position: relative; */
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.btn:hover{
+    border: 1px solid white;
+    background: rgb(123, 66, 176);
+    color: white;
+    transition: 0.5s;
+}
+.showmenu{
+    padding-top: 50px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219 201 236);
+    
+}
+/* .image{
+    display: flex;
+    flex: 25%;
+    height: 200px;
+    width: 200px;
+} */
+.imageClass{ 
+    display:inline;  
+    list-style-type:none; 
+    padding: 5.68%;
+    
+} 
+.image img{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.imageClass img {
+	/* opacity: 0.8; */
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imageClass:hover img {
+	opacity: .5;
+}
+.image_title{
+    display: flex;
+    font-size: 16px;
+    font-family: 'Sora', sans-serif;
+}
+.image_title h3{
+    height: 50px;
+    width: 25%;
+    text-align: center;
+}
+.reviews{
+    height: 650px;
+    background: rgb(227 215 237);
+    padding: 75px;
+}
+.reviews h1{
+    font-size: 39px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.first{
+    display: flex;
+    padding: 20px;
+}
+.second{
+    display: flex;
+    padding: 20px;
+}
+.third{
+    display: flex;
+    padding: 20px;
+}
+.paras{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 30px;
+    text-align: justify;
+}
+.aboutus{
+    background-color: #efe9f5;
+}
+.aboutus img{
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.aboutus h1{
+    font-size: 39px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.aboutus p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 200px;
+    padding-bottom: 25px;
+}
+.aboutus h3{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 12px 0;
+}
+.form{
+    max-width: 60%;
+    margin: 30px auto;
+}
+.form-input{
+    margin: 10px 0;
+    padding: 2px 5px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact h1{
+    font-size: 39px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.button{
+    padding: 4px 14px;
+    margin: 0px 3px;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    font-size: 13px;
+    background-color: #dca4fc;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.textfooter{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
